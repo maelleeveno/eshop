@@ -1,0 +1,1352 @@
+/* ============================ S O M M A I R E ========================== */
+
+/* GENERAL */
+/* HOME PAGE */
+/* INDEX PRODUITS */
+/* FORMULAIRE CONTACT */
+/* FORMULAIRE DEVIS */
+/* FORMULAIRE POSE */
+/* QUI SOMMES NOUS */
+/* MENTIONS LEGALES - CGV - AVANTAGES CLIENT */
+/* AIDES - FAQ */
+/* PLAN DU SITE */
+/* NOS BOUTIQUES */
+/* AVIS */
+
+
+
+/* ======================== 1200px ========================== */
+
+/* ============================================ */
+/* ==================== GENERAL =============== */
+
+* {box-sizing: border-box; }
+
+body {
+	background-color: #fff; /* blanc */
+	font-family: 'Quicksand', sans-serif;
+}
+
+#conteneur {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.clear {
+	clear: both;
+	width: 0px;
+	height: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+a, a:hover {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+
+/* =========================================================== */
+/* ===================== H O M E     P A G E ================= */
+/* =========================================================== */
+
+/* ==================== SECTION 1 : CAROUSEL ================= */
+
+.carousel {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/* SLIDER PRINCIPAL */
+ 
+.slideHome {
+	width: 75%;
+	margin: 0px;
+	float: left;
+}
+
+.slideHome img {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.slideHome a:hover {
+	cursor: pointer;
+}
+
+.slideHome .legende {
+	position: relative;
+	bottom: 30px;
+	display: block;
+	height: 30px;
+	padding: 10px;
+	color: white;
+	opacity: 0.7;
+	font-size: 0.7em;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+	position: relative;
+}
+
+.slick-prev {
+    top: 45%;
+    left: 0px;
+}
+
+.slick-next {
+    top: 45%;
+    right: 0px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 25px;
+}
+
+.slick-prev:before {
+    content: '<';
+    color: white;
+}
+
+button.slick-prev.slick-arrow {
+    margin: 0;
+    background-color: #f32975;
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    z-index: 9;
+}
+
+.slick-next:before {
+    content: '>';
+    color: white;
+}
+
+button.slick-next.slick-arrow {
+    background-color: #f32975;
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    z-index: 9;
+}
+
+/* SLIDERS SECONDAIRES */
+
+.slideDroite {
+	width: 24%;
+	float: right;
+	font-family: sans-serif;
+}
+
+.slideDroite img {
+	width: 100%;
+}
+
+.slideDroite a {
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.slideCarrelage {
+	margin-bottom: 5px;
+}
+
+.slideCarrelage div, .slideParquet div {
+	background-color: #f32975;
+	color: white;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	font-size: 0.7em;
+	position: relative;
+	top: -4px;
+	font-weight: bold;
+}
+
+.slideCarrelage div:hover, .slideParquet div:hover {
+	background-color: rgba(243, 41, 117, 0.8);
+	font-size: 0.75em;
+	transition: 0.1s;
+}
+
+/* BARRE D'OPTIONS SOUS LES SLIDERS ---> MENU */
+
+.menu {
+	text-transform: uppercase;
+	color: rgb(138, 138, 138);
+	font-family: sans-serif;
+	font-size: 0.7em;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.menu img {
+	width: 35px;
+	height: 25px;
+	padding-right: 10px;
+}
+
+.menuGauche {
+	width: 75%;
+	float: left;
+}
+
+.menuDroite {
+	width: 25%;
+	float: right;
+}
+
+.menuDroite span {
+	padding-left: 20px;
+}
+
+.services {
+	float: left;
+	width: 33%;
+	margin: 5px 0px;
+}
+
+.services span {
+	vertical-align: top;	
+}
+
+.paiements img, .paiements div {
+	float: left;
+}
+
+
+/* ==================== SECTION 2 : NOS PRODUITS ================= */
+
+section.nosProduits {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.nosProduits #nosProduits {
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: white;
+	background-color: #F32975;
+	padding-left: 40px;
+}
+
+.nosProduits .triangle {
+	position: relative;
+	bottom: 30px;
+	left: 150px;
+	width: 0;
+	height: 0;
+	border: 0 solid transparent;
+	border-bottom-width: 0px;
+	border-top-width: 37px;
+	border-left: 20px solid #F32975;
+}
+
+.nosProduits .produits {
+	width: 100%;
+}
+
+.nosProduits .vignettes {
+	width: 25%;
+	float: left;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	border: 0.5px solid lightgrey;
+	position: relative;
+	overflow: hidden;
+}
+
+.nosProduits .droite {
+	margin-right: 0px;
+	float: right;
+}
+
+.nosProduits img.produit {
+	width: 100%;
+	height: 100px;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+img.produit:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.nosProduits .voir, .ajout, .devis {
+	height: 20px;
+	line-height: 20px;
+	color: white;
+	font-size: 0.6em;
+	font-weight: bold;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.nosProduits a {
+	color: white;
+	display: block;
+	height: 20px;
+}
+
+.nosProduits .picto {
+	margin-right: 5px;
+	vertical-align: top;
+}
+
+.nosProduits .voir {
+	width: 50%;
+	background-color: rgb(71, 71, 71);
+	float: left;
+}
+
+.nosProduits .voir a:hover {
+	color: #F32975;
+}
+
+.nosProduits .ajout {
+	width: 50%;
+	background-color: #F32975;
+	float: right;
+}
+
+.nosProduits .ajout a:hover {
+	color: rgb(71, 71, 71);
+}
+
+.nosProduits .devis {
+	background-color: rgb(175, 175, 175);
+}
+
+.nosProduits .devis a:hover {
+	color: #F32975;
+}
+
+.nosProduits .echarpe {
+	background-color: #F32975;
+	color: white;
+	text-transform: uppercase;
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	top: 20px;
+	left: -60px;
+	transform: rotate(-35deg);
+	-webkit-transform: rotate(-35deg);
+ 	-ms-transform: rotate(-35deg);
+	text-align: center;
+	font-size: 0.8em;
+	overflow: hidden;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+}
+
+.nosProduits .echarpeLivraison {
+	background-color: #F32975;
+	color: white;
+	text-transform: uppercase;
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	top: 20px;
+	left: -60px;
+	transform: rotate(-25deg);
+	-webkit-transform: rotate(-35deg);
+ 	-ms-transform: rotate(-35deg);
+	text-align: center;
+	font-size: 0.6em;
+	overflow: hidden;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white; 
+}
+
+.nosProduits .description {
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.nosProduits .prix {
+	text-align: center;
+	color: #F32975;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+/* ==================== SECTION 3 : ENCART INFORMATIONS ================= */
+
+.sectionInfos {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+.sectionInfos .encartGris {
+	background-color: #333;
+	margin: 0 auto;
+	font-size: 0.6em;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+}
+
+			/* Flèche rose */
+.sectionInfos .eshop {
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+	background-color: #f32975;
+	font-size: 0.7em;
+	float: left;
+	position: relative;
+	bottom: -30px;
+	z-index: 9;
+}	
+
+.sectionInfos .triangle {
+	width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #f32975;
+	float: left;
+	position: relative;
+	bottom: -30px;
+	z-index: 9;
+}
+			/* Fin flèche rose */
+
+
+.sectionInfos div.infosEshop {
+	float: left;
+}
+
+.sectionInfos div.infosEshop.col1 {
+	width: 25%;
+	margin-right: 60px;
+}
+
+.sectionInfos div.infosEshop.col2 {
+	width: 30%;
+	margin-right: 30px;
+}
+
+.sectionInfos div.infosEshop.col3 {
+	width: 30%;
+}
+
+
+.sectionInfos .infosEshop>div {
+	margin-bottom: 10px;
+}
+
+.sectionInfos img {
+	float: left;
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	height: 30px;
+}
+
+.sectionInfos h5 {
+	font-weight: 700;
+	margin: 0;
+}
+
+.sectionInfos p {
+	padding: 10px;
+}
+
+.sectionInfos .col2 p {
+	padding-left: 68px;
+} 
+
+.sectionInfos .col3 p {
+	padding-left: 68px;
+} 
+
+.sectionInfos div.phraseFin {
+	color: #f32975;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+
+/* ====================================================================== */
+/* ============== P A G E     I N D E X    P R O D U I T S ============== */
+/* ====================================================================== */
+
+section.indexProduit {
+	width: 90%;
+	margin: 0 auto;
+}
+
+section.indexProduit .carreRose {
+	width: 25px;
+	height: 25px;
+	background-color: #F32975;
+	float: left;
+	margin: 20px 10px;
+}
+
+.indexProduit h2 {
+	display: block;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+.bandeauProduit {
+	border: 1px solid lightgrey;
+	margin-bottom: 20px;
+}
+
+.bandeauProduit .encartPromo {
+	width: 25%;
+	float: left;
+	padding: 15px;
+}
+
+.bandeauProduit .encartImage {
+	width: 75%;
+	height: 100%;
+	float: right;
+}
+
+.bandeauProduit button.slick-prev, button.slick-prev.slick-arrow, button.slick-prev.slick-arrow::before, 
+				button.slick-next, button.slick-next.slick-arrow, button.slick-next.slick-arrow::before {
+	display: none;
+	background-color: transparent;
+}
+
+.bandeauProduit .promo1 {
+	font-size: 1.7em;
+	font-weight: bold;
+	display: block;
+}
+
+.bandeauProduit .promo2 {
+	font-size: 1.1em;
+	display: block;
+}
+
+.bandeauProduit .promo3 {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #f32975;
+	display: block;
+	text-align: center;
+}
+
+.bandeauProduit .promo4 {
+	font-size: 1.7em;
+	font-weight: bold;
+	color: #f32975;
+	text-align: center;
+	display: block;
+}
+
+.indexProduit .menuTri {
+	width: 100%;
+	height: 60px;
+}
+
+.indexProduit .trierPar {
+	float: right;
+	margin: 20px;
+	outline-color: #f32975;
+}
+
+.catalogueProduit {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.catalogueProduit .vignetteProduit {
+	width: 25%;
+	float: left;
+	margin: 30px;
+	border: 1px solid lightgrey;
+}
+
+.catalogueProduit .vignetteProduit > img {
+	width: 100%;
+}
+
+.catalogueProduit .vignetteProduit div:nth-child(2) {
+	height: 130px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.catalogueProduit .vignetteProduit .bandeauBas .prix {
+	width: 70%;
+	height: 30px;
+	color: white;
+	text-align: center;
+	background-color: rgb(71, 71, 71);
+	float: left;
+}
+
+.catalogueProduit .vignetteProduit .bandeauBas .triangle {
+	position: relative;
+	left: 60%;
+	top: 30px;
+	width: 0;
+	height: 0;	
+	border: 0 solid transparent;
+	border-bottom-width: 0px;
+	border-top-width: 30px;
+	border-right: 20px solid #F32975;
+	z-index: 1;
+	padding: 0;
+}
+
+.catalogueProduit .vignetteProduit .bandeauBas .panier {
+	float: right;
+	height: 30px;
+	background-color: #f32975;
+	width: 30%;
+}
+
+.catalogueProduit .vignetteProduit .bandeauBas .panier img {
+	width: 30px;
+	margin-left: 30%;
+}
+
+.catalogueProduit .vignetteProduit .bandeauBas .panier a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* ============================================================================ */
+/* ============== P A G E     F O R M U L A I R E     C O N T A C T =========== */
+/* ============================================================================ */
+
+section.formulaire {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+section.formulaire .carreRose {
+	width: 25px;
+	height: 25px;
+	background-color: #F32975;
+	float: left;
+	margin: 20px 10px;
+}
+
+.formulaire h2 {
+	display: block;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+.contact select option, input, textarea {
+	outline-color: #f32975;
+	color: #f32975;
+	padding: 5px;
+}
+
+.contact textarea {
+	width: 100%;
+}
+
+.contact {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.contact fieldset {
+	border: 1px solid lightgrey;
+	padding: 5px;
+	width: 100%;
+}
+
+.contact input {
+	width: 99%;
+}
+
+.contact .boutonRadio {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid black;
+	transition: 0.2s all ease-in;
+	outline: none;
+	margin-right: 5px;
+	position: relative;
+}
+
+.contact input:checked {
+	background-color: #f32975;
+}
+
+.contact a span {
+	position: absolute; 
+	color:#fff; 
+	background:rgba(243, 41, 117, 0.8); 
+	font-size: 0.7em;
+	padding: 5px; 
+	border-radius:3px; 
+	transform: scale(0) rotate(-45deg);
+	transition: all 0.25s;
+	opacity: 0;
+}
+
+.contact a:hover span, a:focus span {
+	transform: scale(1) rotate(0);
+	opacity: 1;
+}
+
+.contact p {
+	margin-top: 20px;
+}
+
+.formulaire button {
+	width: 30%;
+	border-radius: 5px;
+	border-color: lightgrey;
+	background-color: #f8f8f8;
+	font-family: 'Quicksand';
+}
+
+.formulaire button:hover, button:active {
+	color: #f32975;
+	cursor: pointer;
+}
+
+
+/* ======================================================================== */
+/* ============== P A G E     F O R M U L A I R E     D E V I S =========== */
+/* ======================================================================== */
+
+.formulaire .etapes {
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.formulaire .etapes .jauge {
+	width: 100px;
+	height: 5px;
+	margin-top: 25px;
+	border: 1px solid #f32975;
+	border-radius: 200px;
+}
+
+.formulaire .etapes .etape {
+	width: 15%;
+	margin: 10px;
+}
+
+.formulaire .etapes .etape, .jauge {
+	float: left;
+}
+
+.formulaire .etapes .currentStep {
+	color: #f32975;
+	font-weight: bold;
+}
+
+.formulaire .etapes .fullJauge {
+	background-color: #f32975;
+}
+
+.formulaire fieldset {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.formulaire .projet .superficie {
+	text-align: left;
+	padding-left: 25%;
+}
+
+.formulaire .projet .superficie legend {
+	text-align: center;
+}
+
+.formulaire fieldset input {
+	text-align: left;
+	width: 10%;
+}
+
+.formulaire fieldset .plus30 {
+	width: 20%;
+	height: 20px;
+}
+
+.formulaire .budget input {
+	width: 100px;
+}
+
+.formulaire .precedent {
+	display: block;
+	width: 30%;
+	padding: 1px;
+	line-height: 15px;
+	font-size: 0.7em;
+	border-radius: 4px;
+	border: 1px solid lightgrey;
+	background-color: #f8f8f8;
+	float: left;
+}
+
+.formulaire .accueil {
+	display: block;
+	width: 30%;
+	height: 20px;
+	line-height: 18px;
+	font-size: 0.8em;
+	border-radius: 4px;
+	border: 1px solid lightgrey;
+	background-color: #f8f8f8;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.formulaire .validation {
+	float: right;
+}
+
+.formulaire .precedent:hover, .precedent:active, .accueil:hover, .accueil:active {
+	color: #f32975;
+}
+
+.formulaire .reponse {
+	height: auto;
+	width: 60%;
+	background-color: #f8f8f8;
+	border-radius: 4px;
+	border: 1px solid #f32975;
+	font-size: 1.1em;
+	margin: 40px auto;
+	padding: 20px;
+}
+
+
+/* ====================================================================== */
+/* ============== P A G E     F O R M U L A I R E     P O S E =========== */
+/* ====================================================================== */
+
+.formulaire .pose {
+	width: 66%;
+	margin: 0 auto;
+	text-align: justify;
+	margin: 20px 0px;
+}
+
+.formulaire .pose div {
+	margin-bottom: 20px;
+}
+
+.formulaire .photoPose {
+	width: 30%;
+	margin: 20px;
+	box-shadow: 10px 10px 20px lightgrey;
+} 
+
+.formulaire .float-left {
+	float: left;
+}
+
+.formulaire .float-right {
+	float: right;
+}
+
+.formulaire .formulairePose fieldset {
+	text-align: right;
+	padding: 10px;
+	padding-right: 50px;
+}
+
+.formulaire .formulairePose legend {
+	text-align: center;
+}
+
+.formulaire .formulairePose select {
+	width: 150px;
+}
+
+/* ======================================================================= */
+/* ============== P A G E     Q U I     S O M M E S    N O U S =========== */
+/* ======================================================================= */
+
+section.quiSommesNous  {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+section.quiSommesNous .carreRose {
+	width: 25px;
+	height: 25px;
+	background-color: #F32975;
+	float: left;
+	margin: 20px 10px;
+}
+
+section.quiSommesNous  h2 {
+	display: block;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+section.quiSommesNous .aPropos {
+	border: 1px solid #f32975;
+	border-radius: 5px;
+	padding: 20px;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+section.quiSommesNous .aPropos img {
+	width: 30%;
+	padding: 0;
+	margin: 10px;
+	box-shadow: 10px 10px 20px lightgrey;
+}
+
+section.quiSommesNous .aPropos p {
+	width: 65%;
+}
+
+section.quiSommesNous .float-left {
+	float: left;
+	text-align: left;
+	padding: 10px;
+}
+
+section.quiSommesNous .float-right {
+	float: right;
+	text-align: right;
+	padding: 10px;
+}
+
+section.quiSommesNous .bandeauAPropos {
+	background-color: #f32975;
+	height: 40px;
+	line-height: 40px;
+	font-size: 0.8em;
+	color: white;
+}
+
+section.quiSommesNous .bandeauAPropos a {
+	color: white;
+}
+
+section.quiSommesNous .bandeauAPropos div {
+	float: left;
+	width: 33.3%;
+	border-right: 15px solid white;
+}
+
+section.quiSommesNous .bandeauAPropos div.recrute {
+	border: none;
+} 
+
+
+/* ============================================================================= */
+/* ========== M E N T I O N S   L E G A L E S + C G V + AVTGE CLIENT =========== */
+/* ============================================================================= */
+
+section.mentionsLegales, .cgv, .client  {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+section.mentionsLegales .carreRose, .cgv .carreRose, .client .carreRose {
+	width: 25px;
+	height: 25px;
+	background-color: #F32975;
+	float: left;
+	margin: 20px 10px;
+}
+
+section.mentionsLegales h2, .cgv h2, .client h2 {
+	display: block;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+section.mentionsLegales p, .cgv p, .client p {
+	text-align: justify;
+}
+
+section.mentionsLegales h3, .cgv h3, .client h3 {
+	color: #f32975;
+	font-weight: bold;
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 1.2em;
+} 
+
+section.mentionsLegales li, .cgv li {
+	list-style-type: none;
+}
+
+section.mentionsLegales a:hover, .cgv a:hover {
+	color: #f32975;
+}
+
+section.cgv .sommaire {
+	text-align: center;
+	border: 1px solid #f32975;
+	box-shadow: 5px 5px 10px lightgrey;
+	margin-right: 20px;
+	width: 31%;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+section.cgv li {
+	margin-bottom: 5px;
+}
+
+section.cgv h4 {
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.hautDePage {
+	font-size: 3em;
+	color: white;
+	background-color: grey;
+	border-radius: 50%/50%;
+	width: 50px;
+	height: 50px;
+	line-height: 68px;
+	text-align: center;
+	position: fixed;
+	right: 50px;
+	top: 50%;
+}
+
+section.cgv hr, .client hr {
+	margin-bottom: 20px;
+}
+
+section.cgv img {
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* ============================================================================== */
+/* ======================= P A G E    A I D E S    /   F A Q ==================== */
+/* ============================================================================== */
+
+section.faq {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+section.faq .carreRose {
+	width: 25px;
+	height: 25px;
+	background-color: #F32975;
+	float: left;
+	margin: 20px 10px;
+}
+
+section.faq h2 {
+	display: block;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+section.faq li {
+	list-style-type: circle;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+}
+
+section.faq .questionsFrequentes {
+	background: linear-gradient(gainsboro, darkgrey);
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 5px;
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+
+section.faq h4 {
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 10px;
+}
+
+section.faq h4:hover {
+	color: #f32975;
+}
+
+/* Fenêtre popup */
+
+section.faq .questionsFrequentes img {
+	float: right;
+	width: 20px;
+}
+
+section.faq .questionsFrequentes img.numero {
+	float: left;
+	margin: 10px;
+}
+
+section.faq .fond {
+   position:absolute;
+   top: 0;
+   left: 0;
+   z-index:1;
+   background-color: rgb(0, 0, 0, 0.5);
+   display:none;
+}
+
+.pageModale {
+   display:none;
+   z-index:9;
+   padding:20px;
+   border-radius: 10px;
+   border: 1px solid #f32975;
+   background-color: white;
+   position: fixed;
+   width:500px;
+   height:350px;
+   color: black;
+}
+
+.fenetrePopup {
+	background-color: rgba(255, 255, 255);
+}
+
+.pageModale h5 {
+	margin: 20px 0px;
+	font-size: 1.1em;
+}
+
+.pageModale p {
+	font-style: italic;
+}
+
+.pageModale a:hover {
+	color: #f32975;
+}
+
+
+
+/* ======================================================================= */
+/* ============== P A G E    P L A N    D U    S I T E  ================== */
+/* ======================================================================= */
+
+section.planSite  {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+section.planSite .carreRose {
+	width: 25px;
+	height: 25px;
+	background-color: #F32975;
+	float: left;
+	margin: 20px 10px;
+}
+
+section.planSite h2 {
+	display: block;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+section.planSite .col-plan {
+	float: left;
+	width: 25%;
+	margin: 0px 40px;
+	text-align: center;
+}
+
+section.planSite h3 {
+	display: block;
+	font-weight: bold;
+	margin: 20px 0px;
+	color: #f32975;
+}
+
+section.planSite hr {
+	border: 1px solid #f32975;
+	width: 60%;
+}
+
+section.planSite li {
+	list-style-type: none;
+}
+
+section.planSite a:hover {
+	color: #f32975;
+}
+
+
+/* ======================================================================= */
+/* ============== P A G E    N O S   B O U T I Q U E S  ================== */
+/* ======================================================================= */
+
+section.nosBoutiques  {
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+section.nosBoutiques .carreRose {
+	width: 25px;
+	height: 25px;
+	background-color: #F32975;
+	float: left;
+	margin: 20px 10px;
+}
+
+section.nosBoutiques h2 {
+	display: block;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+section.nosBoutiques map {
+	position: relative;
+}
+
+section.nosBoutiques iframe {
+	position: relative; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+section.nosBoutiques .infosBoutiques {
+	float: left;
+	width: 100%;
+}
+
+section.nosBoutiques .boutique {
+	float: left;
+	width: 43%;
+	margin: 30px 20px;
+	text-align: center;
+}
+
+section.nosBoutiques .boutique hr {
+	border: 1px solid #f32975;
+	width: 90%;
+}
+
+section.nosBoutiques .boutique h5 {
+	font-weight: bold;
+}
+
+section.nosBoutiques .boutique .horaires {
+	font-style: italic;
+	font-size: 0.8em;
+	color: #f32975;
+}
+
+
+/* ======================================================================= */
+/* ======================== P A G E    A V I S  ========================== */
+/* ======================================================================= */
+
+section.avis {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+section.avis .carreRose {
+	width: 25px;
+	height: 25px;
+	background-color: #F32975;
+	float: left;
+	margin: 20px 10px;
+}
+
+section.avis h2 {
+	display: block;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+section.avis textarea {
+	width: 50%;
+	height: 100px;
+}
+
+
+

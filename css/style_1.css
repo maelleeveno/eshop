@@ -1,0 +1,1132 @@
+/* ======================== SOMMAIRE ========================== */
+/* GENERAL */
+/* HOME PAGE */
+/* PAGE PRODUITS */
+/* COMMANDE */
+/* PROFESSIONNEL */
+/* MON COMPTE */
+/* PANIER */
+/* POPUP */
+
+
+
+/* ======================== 1200px et plus ========================== */
+/* ============================================ */
+/* ==================== GENERAL =============== */
+* {box-sizing: border-box; }
+body {
+	background-color: #fff; /* blanc */
+	font-family: 'Quicksand', sans-serif;
+}
+#conteneur {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.clear {
+	clear: both;
+	width: 0px;
+	height: 0px;
+	margin: 0;
+	padding: 0;
+}
+a, a:hover {
+	color: black;
+	text-decoration: none;
+}
+/* =========================================================== */
+/* ===================== H O M E     P A G E ================= */
+/* =========================================================== */
+
+/* ==================== SECTION 1 : CAROUSEL ================= */
+
+.carousel {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/* SLIDER PRINCIPAL */
+ 
+.slideHome {
+	width: 75%;
+	margin: 0px;
+	float: left;
+}
+
+.slideHome img {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.slideHome a:hover {
+	cursor: pointer;
+}
+
+.slideHome .legende {
+	position: relative;
+	bottom: 30px;
+	display: block;
+	height: 30px;
+	padding: 10px;
+	color: white;
+	opacity: 0.7;
+	font-size: 0.7em;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+	position: relative;
+}
+
+.slick-prev {
+    top: 45%;
+    left: 0px;
+}
+
+.slick-next {
+    top: 45%;
+    right: 0px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 25px;
+}
+
+.slick-prev:before {
+    content: '<';
+    color: white;
+}
+
+button.slick-prev.slick-arrow {
+    margin: 0;
+    background-color: #f32975;
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    z-index: 9;
+}
+
+.slick-next:before {
+    content: '>';
+    color: white;
+}
+
+button.slick-next.slick-arrow {
+    background-color: #f32975;
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    z-index: 9;
+}
+
+/* Dots */
+
+.slick-dots {
+	bottom: 35px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.slick-dots li button {
+	margin: 0;
+    padding: 0;
+    border: 1px white solid;
+    background-color: #333;
+    opacity: 0.5;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    background-color: #f32975;
+    opacity: 0.9;
+    transition: 0.1s;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    background-color: #f32975;
+    opacity: 0.9;
+    transition: 0.1s;
+}
+
+.slick-dots li button:before {
+	content: none;
+	color: transparent;
+}	
+
+li.slick-active 
+{
+    background-color: white;
+    opacity: 1;
+}
+
+
+/* SLIDERS SECONDAIRES */
+
+.slideDroite {
+	width: 24%;
+	float: right;
+	font-family: sans-serif;
+}
+
+.slideDroite img {
+	width: 100%;
+}
+
+.slideDroite a {
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.slideCarrelage {
+	margin-bottom: 5px;
+}
+
+.slideCarrelage div, .slideParquet div {
+	background-color: #f32975;
+	color: white;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	font-size: 0.7em;
+	position: relative;
+	top: -4px;
+	font-weight: bold;
+}
+
+.slideCarrelage div:hover, .slideParquet div:hover {
+	background-color: rgba(243, 41, 117, 0.8);
+	font-size: 0.75em;
+	transition: 0.1s;
+}
+
+.galerie {
+	display: none;
+}
+
+/* BARRE D'OPTIONS SOUS LES SLIDERS ---> MENU */
+
+.menu {
+	text-transform: uppercase;
+	color: rgb(138, 138, 138);
+	font-family: sans-serif;
+	font-size: 0.7em;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.menu img {
+	width: 35px;
+	height: 25px;
+	padding-right: 10px;
+}
+
+.menuGauche {
+	width: 75%;
+	float: left;
+}
+
+.menuDroite {
+	width: 25%;
+	float: right;
+	vertical-align: middle;
+}
+
+.menuDroite img {
+	display: block;
+	margin: 20px;
+}
+.menuDroite span {
+	display: block;
+	margin-left: 55px;
+	margin-top: -48px;
+}
+
+.services {
+	float: left;
+	width: 33%;
+	margin: 5px 0px;
+}
+
+.services span {
+	vertical-align: top;	
+}
+
+.paiements img, .paiements div {
+	float: left;
+}
+
+
+/* ==================== SECTION 2 : NOS PRODUITS ================= */
+
+section.nosProduits {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.nosProduits #nosProduits {
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: white;
+	background-color: #F32975;
+	padding-left: 40px;
+}
+
+.nosProduits .triangle {
+	position: relative;
+	bottom: 30px;
+	left: 150px;
+	width: 0;
+	height: 0;
+	border: 0 solid transparent;
+	border-bottom-width: 0px;
+	border-top-width: 37px;
+	border-left: 20px solid #F32975;
+}
+
+.nosProduits .produits {
+	width: 100%;
+}
+
+.nosProduits .vignettes {
+	width: 25%;
+	float: left;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	border: 0.5px solid lightgrey;
+	position: relative;
+	overflow: hidden;
+}
+
+.nosProduits .droite {
+	margin-right: 0px;
+	float: right;
+}
+
+.nosProduits img.produit {
+	width: 100%;
+	height: 100px;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+img.produit:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.nosProduits .voir, .ajout, .devis {
+	height: 20px;
+	line-height: 20px;
+	color: white;
+	font-size: 0.6em;
+	font-weight: bold;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.nosProduits a {
+	color: white;
+	display: block;
+	height: 20px;
+}
+
+.nosProduits .picto {
+	margin-right: 5px;
+	vertical-align: top;
+}
+
+.nosProduits .voir {
+	width: 50%;
+	background-color: rgb(71, 71, 71);
+	float: left;
+}
+
+.nosProduits .voir a:hover {
+	color: #F32975;
+}
+
+.nosProduits .ajout {
+	width: 50%;
+	background-color: #F32975;
+	float: right;
+}
+
+.nosProduits .ajout a:hover {
+	color: rgb(71, 71, 71);
+}
+
+.nosProduits .devis {
+	background-color: rgb(175, 175, 175);
+}
+
+.nosProduits .devis a:hover {
+	color: #F32975;
+}
+
+.nosProduits .echarpe {
+	width: 170px;
+	height: 0px;
+	border: 1px solid #f62674;
+	border-color:transparent transparent #f62674 transparent;
+	border-width: 30px;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+ 	-ms-transform: rotate(-45deg);
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	line-height: 30px;
+	position: absolute;
+	top: 8px;
+	left: -46px;
+}
+
+.nosProduits .echarpeLivraison {
+	background-color: #F32975;
+	color: white;
+	text-transform: uppercase;
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	top: 20px;
+	left: -50px;
+	transform: rotate(-25deg);
+	-webkit-transform: rotate(-25deg);
+ 	-ms-transform: rotate(-25deg);
+	text-align: center;
+	font-size: 0.7em;
+	overflow: hidden;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white; 
+	display: none;
+}
+
+.nosProduits .description {
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.nosProduits .prix {
+	text-align: center;
+	color: #F32975;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+/* ==================== SECTION 3 : ENCART INFORMATIONS ================= */
+
+.sectionInfos {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+.sectionInfos .encartGris {
+	background-color: #333;
+	margin: 0 auto;
+	font-size: 0.6em;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+}
+
+			/* Flèche rose */
+.sectionInfos .eshop {
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+	background-color: #f32975;
+	font-size: 0.7em;
+	float: left;
+	position: relative;
+	bottom: -30px;
+	z-index: 9;
+}	
+
+.sectionInfos .triangle {
+	width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #f32975;
+	float: left;
+	position: relative;
+	bottom: -30px;
+	z-index: 9;
+}
+			/* Fin flèche rose */
+
+
+.sectionInfos div.infosEshop {
+	float: left;
+}
+
+.sectionInfos div.infosEshop.col1 {
+	width: 25%;
+	margin-right: 60px;
+}
+
+.sectionInfos div.infosEshop.col2 {
+	width: 30%;
+	margin-right: 30px;
+}
+
+.sectionInfos div.infosEshop.col3 {
+	width: 30%;
+}
+
+
+.sectionInfos .infosEshop>div {
+	margin-bottom: 10px;
+}
+
+.sectionInfos img {
+	float: left;
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	height: 30px;
+}
+
+.sectionInfos h5 {
+	font-weight: 700;
+	margin: 0;
+}
+
+.sectionInfos p {
+	padding: 10px;
+}
+
+.sectionInfos .col2 p {
+	padding-left: 68px;
+} 
+
+.sectionInfos .col3 p {
+	padding-left: 68px;
+} 
+
+.sectionInfos div.phraseFin {
+	color: #f32975;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.mailEshop p a {
+	color: white;
+}
+.mailEshop p a:hover {
+	color: #f32975;
+}
+
+
+/* ====================================================================== */
+/* =================== P A G E   P R O D U I T S   ====================== */
+/* ====================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+.conteneur-gallerie {
+	position: relative;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 70px;	
+}
+.mySlides {
+	width: 50%;
+	display: none;
+	float: left;
+}
+.mySlides img {
+	border: solid 2px lightgrey;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+	cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+  left:2px;
+}
+.next {
+  right: 572px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.row {
+	display: block;
+	float: left;
+	width: 50%;
+	margin-top: 65px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+	float: left;
+}
+.vignette-all .column .demo {
+	margin-left: 14px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.prix {
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.prix .textGrand {
+	font-size: 60px;
+}
+.prix .textPetit {
+	font-size: 30px;
+}
+.bouton-devis {
+	background-color: lightgrey;
+	margin: 0 auto;
+	width: 50%;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 37px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	color: white;
+}
+.bouton-devis:hover {
+	color: #f52674;
+}
+.bouton-buy {
+	background-color: #f52674;
+	width: 50%;
+	height: 70px;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 65px;
+	color: white;
+	padding-bottom: 20px;
+}
+.bouton-buy img {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.bouton-buy:hover {
+	background: linear-gradient(#bd0347, #f52772 ); /* Rose foncé vers rose */
+}
+.vignette-all {
+	display: block;
+}
+
+.reference-produit {
+	border-top: solid 2px lightgrey;
+	border-bottom: solid 2px lightgrey;
+	font-size: 20px;
+	width: 50%;
+	margin: 165px auto 20px auto;
+	text-align: center;
+}
+.caract {
+	width: 70%;
+	margin: 20px auto 50px auto;
+}
+.titre-caract {
+	height: 45px;
+	line-height:41px;	
+	width: 100%;
+	background-color: gray;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 900;
+	color: white;
+}
+.table-caract {
+	width: 100%;
+}
+.table-caract tr td{
+	width: 50%;
+	margin-left: 10px;
+}
+.table-caract tr:nth-child(odd) {
+	background-color: lightgrey;	
+}
+
+
+/* ====================================================================== */
+/* ======================== C O M M A N DE   ============================ */
+/* ==================================================================
+
+/* ==== Bandeau Haut ==== */
+.bandeau-bienvenue {
+	background-color: #595959;
+	height: 70px;
+}
+.bandeau-bienvenue h1 {
+	font-size: 30px;
+	color: white;
+	margin-left: 60px;
+	padding-top: 15px;
+}
+.bandeau-bienvenue h1 span {
+	font-weight: 400;
+}
+/* ==== Bandeau Haut ==== */
+
+/* ==== Bloc 1 ==== */
+.commandeLivrer {
+	width: 80%;
+	border: solid 1px #f32975;
+	border-radius: 5px;
+	margin: 25px auto 25px auto ;
+	margin-top: 20px;
+}
+.commandeLivrer h2 {
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+.commandeLivrer .commandeEnCours-1 {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.commandeLivrer .commandeEnCours-1 img {
+	float: left;	
+}
+.commandeLivrer .commandeEnCours-1 .text-commande {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.commandeLivrer .commandeEnCours-1 .text-commande span {
+	font-weight: 500;
+	font-size: 20px;
+}
+.commandeLivrer .conteneur-impression {
+	float: right;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 20px;
+}
+.commandeLivrer .conteneur-impression img {
+	width: 45px;
+	margin: 0 auto;
+}
+.commandeLivrer .conteneur-impression span {
+	margin-top: 5px;
+}
+.commandeEnCours-1 .text-commande a:hover {
+	color: #f32975;
+}
+.commandeLivrer .commandeEnCours-1 a:hover {
+	color: #f32975;
+	font-weight: 500;
+}
+
+/* ====================================================================== */
+/* ======================== C O M M A N DE   ============================ */
+/* ====================================================================== */
+
+
+/* ====================================================================== */
+/* =================== P R O F E S S I O N N E L   ====================== */
+/* ====================================================================== */
+div.conteneur-professionnel main .visuel-professionnel {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+.conteneur-all-pro .gauche-pro {
+	float: left;
+	width: 42%;
+	display: flex;
+	flex-direction: column; 
+	font-size: 20px;
+	text-align: right;
+	margin: 200px 1% 0 5%;
+}
+.conteneur-all-pro .droite-pro {
+	float: right;
+	width: 42%;
+	margin: 50px 5% 50px 1%;
+	font-size: 20px;
+}
+.conteneur-all-pro .droite-pro ul {
+	padding-left: 20px;
+}
+.conteneur-professionnel main .conteneur-all-pro .gauche-pro span.titre-pro {
+	font-weight: 100;
+	font-size: 45px;
+	text-align: right;
+}
+.conteneur-professionnel main .pro-block-avantage {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 75px;
+} 
+.pro-block-avantage-contenu {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	height: 170px;
+}
+.pro-block-avantage-contenu hr {
+	border: solid 0.5px #818181;
+	width: 100px;
+}
+.pro-block-avantage-contenu img {
+	width: 75%;
+	margin: 0 auto;
+}
+/* ====================================================================== */
+/* =================== P R O F E S S I O N N E L   ====================== */
+/* ====================================================================== */
+
+
+
+/* ====================================================================== */
+/* ======================= M O N   C O M P T E ========================== */
+/* ====================================================================== */
+.conteneur-compte {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.conteneur-compte .compte-inscription {
+	width: 40%;
+	height: 100Px;
+	border: 1px solid #f32975;
+	border-radius: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.conteneur-compte .compte-creation {
+	width: 40%;
+	border: 1px solid #f32975;
+	border-radius: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.compte-inscription {
+	text-align: center;
+}
+.compte-texte { 
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.bt-inscription {
+	margin-bottom: 20px;
+}
+.inscription {
+	margin-top: 20px;
+}
+.compte-creation {
+	text-align: center;
+}
+.inscription a span {
+	position: absolute; 
+	color:#fff; 
+	background:rgba(243, 41, 117, 0.8); 
+	font-size: 0.7em;
+	padding: 5px; 
+	border-radius:3px; 
+	transform: scale(0) rotate(-45deg);
+	transition: all 0.25s;
+	opacity: 0;
+}
+
+.inscription a:hover span, a:focus span {
+	transform: scale(1) rotate(0);
+	opacity: 1;
+}
+.inscription p {
+	margin-bottom: 10px;
+}
+/* ====================================================================== */
+/* ======================= M O N   C O M P T E ========================== */
+/* ====================================================================== */
+
+
+/* ====================================================================== */
+/* =======================   P A N I E R   =========================== */
+/* ====================================================================== */
+.conteneur-panier .panier-bandeau-haut {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #595959;
+	font-size: 25px;
+	font-weight: 900;
+	color: white; 
+}
+.commandeLivrer .conteneur-paiement {
+	float: right;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 20px;
+}
+.commandeLivrer .conteneur-paiement img {
+	width: 45px;
+	margin: 0 auto;
+}
+.commandeLivrer .conteneur-paiement span {
+	margin-top: 5px;
+}
+
+
+/* ====================================================================== */
+/* =======================   P A N I E R   =========================== */
+/* ====================================================================== */
+
+/* ====================================================================== */
+/* =======================   P O P U P  == =========================== */
+/* ====================================================================== */
+
+.fond {
+   position:absolute;
+   top: 0;
+   left: 0;
+   z-index:1;
+   background-color: rgb(0, 0, 0, 0.5);
+   display:none;
+}
+
+.pageModale {
+   display:none;
+   z-index:9;
+   padding:20px;
+   border-radius: 10px;
+   border: 1px solid #f32975;
+   background-color: white;
+   position: fixed;
+   width:500px;
+   height:350px;
+   color: black;
+}
+
+.fenetrePopup {
+	background-color: rgba(255, 255, 255);
+}
+
+.pageModale h5 {
+	margin: 20px 0px;
+	font-size: 1.1em;
+}
+
+.pageModale p {
+	font-style: italic;
+}
+
+.pageModale a:hover {
+	color: #f32975;
+}
+
+/* ====================================================================== */
+/* =======================   P O P U P  == =========================== */
+/* ====================================================================== */
+
+
+/* ====================================================================== */
+/* ============== P A G E     I N D E X    P R O D U I T S ============== */
+/* ====================================================================== */
+
+.bloc-titre {
+	margin-left: 60px;
+	margin-top: 20px;
+	white-space: nowrap;
+}
+.carre {
+	width: 30px;
+	height: 30px;
+	background: #f52674;
+	float: left;
+	margin-top: 6px;
+}
+h1 {
+	float: left;
+	margin-left: 10px;
+	color: #363435;
+	font-weight: 700;
+	font-size: 35px;
+}
+.partie_produit {
+	width: 49.9%;
+	float: left;
+}
+.separateur {
+	width: 0.2%;
+	height: 700px; 
+	background: linear-gradient(white, gray, white);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: left;
+}
+ul.contBtPdt {
+	list-style:none;
+	margin-top: 125px;
+	margin-left: 20px;
+}
+.contBtPdt li a {
+	display: block;
+	background: blue;
+	width: 534px;
+	height: 95px; 
+	font-weight: 700;
+	font-size: 25px;
+	color: white; 
+	margin: auto;
+	text-align: center;
+	line-height: 90px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#carrelage {
+	background-image: url('../img/photos/produits_1.jpg');
+	background-repeat : no-repeat ;
+}
+#parquet {
+	background-image: url('../img/photos/produits_2.jpg');
+	background-repeat : no-repeat ;
+}
+#exterieur {
+	background-image: url('../img/photos/produits_3.jpg');
+	background-repeat : no-repeat ;
+}
+#mur {
+	background-image: url('../img/photos/produits_4.jpg');
+	background-repeat : no-repeat ;
+}
+#accessoire {
+	background-image: url('../img/photos/produits_5.jpg');
+	background-repeat : no-repeat ;
+}
+#sanitaire {
+	background-image: url('../img/photos/produits_6.jpg');
+	background-repeat : no-repeat ;
+}
+.contBtPdt li a:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+
+
+.partie_service {
+	width: 49.9%;
+	float: left;
+}
+ul.conBtServ {
+	list-style:none;
+	margin-top: 215px;
+	margin-left: 25px;
+}
+.conBtServ li a {
+	display: block;
+	background: linear-gradient(lightgrey, white, lightgrey );
+	width: 534px;
+	height: 120px; 
+	font-weight: 700;
+	font-size: 35px;
+	color: #373536; 
+	margin: 20px 0 0 0;
+	text-align: left;
+	line-height: 125px;
+	transition: .3s ease-in-out;
+}
+.conBtServ li a img {
+	vertical-align: middle;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+.conBtServ li a:hover {
+	background: linear-gradient(#f52674, white, #f52674 );
+}
+
+/* ====================================================================== */
+/* ============== P A G E     I N D E X    P R O D U I T S ============== */
+/* ====================================================================== */

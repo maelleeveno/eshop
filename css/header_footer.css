@@ -1,0 +1,556 @@
+/* ============================================== */
+/* ===================== HEADER ================= */
+
+header {
+	background-color: #f8f8f8;
+}
+
+/* ==================== BANDEAU 1 =============== */
+
+.bandeau1 {
+	background-color: #595959; /* gris */
+	color: #fff;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.8em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bandeau1 .satisfait {
+	padding-left: 40px;
+}
+
+.bandeau1 .paiement {
+	padding-right: 40px;
+}
+
+.bandeau1 .tel img {
+	height: 15px;
+}
+
+.bandeau1 span {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+/* ==================== BANDEAU 2 =============== */
+
+.bandeau2 {
+	margin-left: 100px;
+	margin-right: 70px;
+	padding-top: 20px;
+	min-height: auto;
+}
+
+.service-content-v2 {
+	display: none;
+}
+
+/* ====================== LOGO ================== */
+
+.bandeau2 .logo {
+	float: left;
+	width: 60%;
+	height: 60px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.bandeau2 .logo .nom {
+	color: black;
+	font-size: 4em;
+	font-weight: bold;
+	text-align: left;
+}
+
+.bandeau2 .logo .e {
+	background-color: #f32975;
+	color: white;
+	text-align: center;
+	width: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.bandeau2 .logo .shop {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+.bandeau2 .logo .accroche {
+	font-style: italic; 
+	letter-spacing: 1px;
+	font-size: 0.75em;
+	padding-top: 5px;
+}
+
+/* ==================== OPTIONS ================== */
+
+.service-content {
+	float:left;
+	width: 40%;
+	min-height: 60px;
+	font-size: 0.8em;
+	vertical-align: middle;
+	display: block;
+	margin: auto 0; 
+}
+
+.service-content a:hover {
+	color: #f32975;
+}
+
+.bandeau2 .service-content img {
+	height: 35px;
+}
+
+.service-content .service1 {
+	float: left;
+}
+
+.service-content .service2 {
+	float: right;
+}
+
+.service-content .gras {
+	font-weight: bold;
+}
+
+.service-content .service1 img {
+	float: left;
+	margin-right: 10px; 
+}
+
+
+/* -------------------------- */
+/* POPUP CONSEILS & QUESTIONS */
+.service-content .pageModale, .service-content-v2 .pageModale {
+	text-align: right;
+	background-color: white;
+	z-index: 9;
+}
+
+.service-content .pageModale h5 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.service-content-v2 .pageModale h5 {
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.service-content .pageModale .fermer img, .service-content-v2 .pageModale .fermer img {
+	float: right;
+	width: 20px;
+	height: 20px;
+}
+
+.service-content-v2 .pageModale label {
+	font-size: 0.7em;
+}
+
+.service-content .pageModale input, .service-content-v2 .pageModale input {
+	margin-bottom: 10px;
+	z-index: 99;
+}
+
+.service-content .pageModale .fond, .service-content-v2 .pageModale .fond {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   background-color: white;
+   display: none;
+}
+/* POPUP CONSEILS & QUESTIONS */
+/* -------------------------- */
+
+.service-content .service2 img {
+	float: right;
+	margin-left: 10px;
+}
+
+.service-content .ligne {
+	display: block;
+	min-height: 30px; 
+	border-bottom: solid 2px #ededed;
+	margin-bottom: 30px
+}
+
+.service-content .texte1 {
+	float: left;
+}
+
+.service-content .texte2 {
+	float: right;
+}
+
+
+/* ===================== N A V ================== */
+
+nav ul {
+	list-style: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	color: #2a2a2a;
+}
+
+nav ul li {
+	display: block;
+	background-image: linear-gradient(white, lightgrey); 
+	margin: 0;
+}
+
+nav ul li a {
+	float: left;
+	display: block;
+	height: 40px; 
+	padding: 12px 19px 12px 19px ;
+	border-right: solid 1px #e6e6e6;
+} 
+
+nav ul li a:nth-child(10) {
+	border-right: none;
+}
+
+nav ul li a img {
+	position: relative;
+	bottom: 5px;
+}
+
+nav ul li a:nth-child(2) { 
+	padding: 15px 10px 15px 60px ;
+}
+
+nav ul li a:hover {
+	border-bottom: solid 2px #f82574;
+}
+
+nav ul li a.actif{
+	background-image: linear-gradient(lightgrey, white); 
+}
+
+nav ul li .search-container{
+	float: right;
+}
+
+
+nav ul li .search-container input[type=text]{
+	padding: 7px;
+	height: 30px;
+	width: 170px;
+	font-size: 0.7em;
+	border: solid 2px #c1c1c1;
+	margin-top: 5px;
+	font-style: italic;
+}
+
+nav ul li .search-container button {
+	float: right;
+	height: 30px;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-right: 60px;
+}
+
+nav ul li .search-container button:hover {
+	background: #929292;
+}
+
+.hamburger {
+	display: none;
+}
+
+.deroulant {
+	display: none;
+}
+
+input:focus, #hamburger:focus {
+	outline-color: #f82574;
+}
+
+
+/* ============================================== */
+/* ===================== FOOTER ================= */
+
+footer {
+	width: 100%;
+	background: #f5f5f5;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 0.8em;
+	color:#8d8d8d;
+}
+
+footer .conteneurFooter {
+	width: 90%;
+	margin: 0 auto;
+}
+
+footer h3 {
+	margin: 0;
+}
+
+footer h4 {
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	color: #131313;
+}
+
+footer .col-foot {
+	float: left;
+	width: 25%;
+	padding: 10px;	
+}
+
+footer ul {
+	padding: 0; 
+	list-style: none;
+	margin-left: 5px; 
+}
+
+footer ul>li>a{
+	color: #6b6b6b;
+}
+
+footer ul>li>a:hover{
+	color: #f32975;
+}
+
+footer hr {
+  border: none;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+/* ================= COLONNE ESHOP =============== */
+
+footer .map-google {
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-bottom: 10px; 	
+	padding-right: 10px; 	
+}
+
+footer .adresse {
+	float: left;
+	font-size: 0.75em;
+}
+
+footer .text-i {
+	font-style: italic;
+}
+
+/* ================ COLONNE PARTAGE ============== */
+	
+footer iframe {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+				
+				
+/* ================ COLONNE QUALITE ============== */
+
+footer .encartQualite {
+	background-color: rgb(235, 231, 232);
+	width: 184px; 
+	height: 250px;
+	margin: 0 auto;
+	border: 1px solid rgb(235, 231, 232); 
+	font-family: 'Myriad Pro', sans-serif;
+}
+
+footer .qualite {
+	position: relative;
+	height: 80px;
+	left: 40px;
+	bottom: 40px;
+	z-index: 1;
+}
+
+footer .encartQualite2 {
+	background: linear-gradient(0.25turn, rgb(229, 231, 227), rgb(253, 253, 251), rgb(229, 231, 227));
+	width: 90%;
+	margin: 0 auto;
+	height: 190px;
+	margin-top: 45px;
+	border: 1px solid rgb(188, 186, 189);
+	box-shadow: 2px 2px 2px white inset, -2px -2px 2px white inset;
+}
+
+footer .contenant {
+	position: relative; 
+	top: -40px;
+}
+
+footer .ligneQuali {
+	position: relative; 
+	top: -43px;
+	height: 0px;
+	border-top: 1px solid rgb(188, 186, 189);
+	width: 98%;
+	margin: 0 auto;
+	box-shadow: 0px -0.5px 2px 0px rgb(170, 170, 170);
+}
+
+footer .etoiles {
+	min-width: 90%;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+footer .etoiles img{
+	float: left;
+	height: 25px;
+}
+
+footer .notes {
+	position: relative;
+	left: -2px;
+	min-width: 103%;
+	margin-bottom: 2px;
+	background: white;
+	box-shadow: 0px 4px 10px 0px rgb(140, 140, 140);
+}
+
+footer .noteBlanc {
+	font-size: 2em;
+	height: 30px;
+	line-height: 30px;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	border-left: 1px solid rgb(188, 186, 189); 
+	border-right: 1px solid rgb(188, 186, 189); 
+}
+
+footer .noteGris {
+	background: linear-gradient(rgb(242, 242, 242), rgb(236, 238, 235));
+	font-size: 0.6em;
+	color: rgb(74, 147, 74);
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-left: 1px solid rgb(188, 186, 189); 
+	border-right: 1px solid rgb(188, 186, 189); 
+}
+
+footer .avis {
+	height: 40px;
+	max-width: 85%;
+	margin: -5px auto;
+	background-color: white;
+	border: 1px solid rgb(188, 186, 189);
+	font-size: 0.7em;
+	text-align: left;
+	padding-left: 2px;
+	padding-top: 5px;
+}
+
+footer .bas {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+footer .date {
+	color: grey;
+	font-size: 0.65em;
+	padding: 5px;
+}
+
+footer .plus {
+	color: grey;
+	font-weight: bold;
+	font-size: 0.65em;
+	padding: 5px;
+}
+
+footer .plus:hover {
+	text-decoration: none;
+	color: rgb(74, 147, 74);
+	cursor: pointer;
+}
+
+/* ============= COLONNE NEWSLETTER ============== */
+
+footer .niouslettre {
+	min-width : 100%; 
+	background: #ebe7e8;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 0.75em;
+	padding-top: 15px; 
+	padding-bottom: 5px;
+	z-index: 9;
+}
+
+footer #searchbarFooter form {
+    display: flex;
+    padding: 10px;
+}
+
+footer #searchbarFooter #champFooter {
+    min-height: 20px;
+    width: 100%;
+    padding-left: 15px;
+    border: 1px solid rgba(3, 3, 3, 0.1);
+}
+
+footer #searchbarFooter #boutonFooter {
+    min-height: 20px;
+    width: 30%;
+    background: #7d7d7d;
+    margin-left: -5px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    outline: none;
+}
+
+footer #searchbarFooter #champFooter::placeholder {
+    color: lightgrey;
+    font-style: italic;
+	font-size: 0.6em;
+}
+
+footer input:focus {
+    outline-color: #f32975;
+}
+
+footer #searchbarFooter #champFooter#boutonFooter {
+    color: white;
+    font-style: italic;
+	font-size: 0.6em;
+}
+
+footer .text-promo {
+	font-size: 0.8em;
+}
+
+footer .bandeauBas {
+	background-color: #595959;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+footer .bandeauBas a, .bandeauBas span {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .bandeauBas a:hover {
+	color: #f32975;
+}

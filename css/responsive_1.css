@@ -1,0 +1,1209 @@
+/* =============== R E S P O N S I V E ============= */
+
+
+/* =============== Au dessus de 1280px ============= */
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+@media all and (min-width: 1200px){	
+	/* ============= HOME =========== */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	#conteneur {min-width: 1200px;}
+
+	.carousel {
+		width: 80%;
+	}
+
+	.nosProduits img.produit {
+		width: 100%;
+		height: 100%;
+	}
+
+	.nosProduits .vignettes {
+		margin-right: 120px;
+	}
+
+	.nosProduits .vignettes.droite {
+		float: right;
+		margin-right: 0;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ============= HOME =========== */
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* =============== Au dessus de 1280px ============= */
+
+/* ============= Entre 960px et 1200px ============= */
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+@media all and (min-width: 960px) and (max-width: 1200px){
+	/* ======== HEADER FOOTER ======= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.bandeau2 {
+		margin-left: 20px;		
+		margin-right: 20px;	
+	}
+	.bandeau2 .logo {
+		width: 50%;		
+	}
+	.bandeau2 .service-content {
+		float: right;
+		width: 45%;
+	}
+	nav ul li a {
+		font-size: 0.8em;
+		padding: 12px 9px 12px 9px ;
+	} 
+	nav ul li a:(first-child) {
+		margin-left: 55px;
+	}
+	nav ul li .search-container input[type=text] {
+		padding: 2px;
+		width: 150px;
+	}
+	nav ul li .search-container form button {
+		margin-right: 55px;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== HEADER FOOTER ======= */
+	
+	/* ============= HOME =========== */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	#conteneur {
+		max-width: 900px; 
+	}
+	.carousel {
+		width: 90%;
+	}
+	.slideHome {
+		width: 75%;
+	}
+	.slideHome img {
+		height: 260px;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ============= HOME =========== */
+		
+	/* ======== NOS PRODUITS ======== */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.partie_produit {
+		width: 100%;
+	}
+	.partie_service {
+		width: 100%;
+	}
+	.separateur {
+		display: none;
+	}
+	.contBtPdt{
+		margin-left: 0;
+		margin-bottom: 100px;
+	}
+	ul.conBtServ {
+		margin-top: 130px;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 100px;
+	}
+	ul.conBtServ li a {
+		margin: 0 auto 40px auto;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== NOS PRODUITS ======== */	
+	
+	/* ======== PAGE PRODUITS ======= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.conteneur_page_produit .bloc-titre h1 {	
+		font-size: 30px;
+		white-space: normal; 
+		margin-left: 20px;
+	}
+	.conteneur_page_produit .bloc-titre .carre {
+		width: 25px;
+		height: 25px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .prev {
+		top: 50%;
+	}
+	.conteneur_page_produit .conteneur-gallerie .next {
+		top: 50%;
+		right: 422px;
+	}	
+	.conteneur_page_produit .conteneur-gallerie .row {
+		margin-top: 0;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .prix {
+		margin-top: 0;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row a .bouton-devis {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .vignette-all .column .demo {
+		width: 75px;
+		margin-left: 9px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .reference-produit {
+		margin-top: 150px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .bouton-buy {
+		font-size: 19px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .bouton-buy .panier {
+		width: 20px;
+		margin-right: 5px;
+	}	
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== PAGE PRODUITS ======= */	
+	
+	/* =========== COMMANDE ========= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.conteneur-commande .bandeau-bienvenue h1 {
+		font-size: 30px;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 .text-commande {
+		width: 400px;
+		
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* =========== COMMANDE ========= */
+	
+	/* ======== INDEX PRODUIT ======= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.bandeauBas .triangle {
+			left: 60%;
+	}
+	
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== INDEX PRODUIT ======= */
+	
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ============= Entre 960px et 1200px ============= */
+
+/* ============== Entre 959px et 768px ============= */
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+@media all and (min-width: 768px) and (max-width: 959px){
+
+	/* ============= HOME =========== */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	#conteneur {
+		min-width: 100%;  
+	}
+
+	.bandeau1 {
+		max-height: 30px; 
+		line-height: 30px; 
+		font-size: 0.8em;
+	}
+	
+	.bandeau1 .satisfait {
+		padding-left: 10px;
+	}
+	
+	.bandeau1 .paiement {
+		padding-right: 10px;
+	}
+
+	.bandeau2 {
+		min-height: 150px;
+	}
+	
+	.bandeau2 .logo {
+		width: 100%;			
+		margin: 0px auto;		
+	}
+
+	.bandeau2 {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.bandeau2 .logo{
+		width: 45%;
+		margin: 0; 
+		float: left; 
+	}
+
+	.service-content {
+		float: right;
+		width: 55%; 
+	}	
+	
+	
+	.hamburger {
+		display: inline;
+		padding-left: 50px;
+		padding-right: 50px;
+		border: none;
+		height: 41px;
+		background: linear-gradient(white, lightgrey);
+	}
+
+	nav ul li div.search-container form button {
+		margin-right: 45px;
+		margin-top: 8px;
+	}	
+
+	nav ul li .search-container input[type=text] {
+		margin-top: 8px;
+	}	
+
+	nav ul li a:not(first-child) {
+		display: none;
+	}
+
+	.deroulant {
+		display: block;
+		width: 100%;
+		background-color: lightgrey;
+		position: relative;
+	}
+
+	.deroulant a {
+		display: block;
+		flex-direction: column;
+		font-weight: 700;
+		font-size: 18px;
+		text-align: center;
+		padding: 10px 0 10px 0;
+	}
+
+	.deroulant a:hover {
+		border-bottom: solid 2px #f52875;
+	}
+
+	.hamburger:active {
+	}
+
+	.carousel {
+		width: 90%;
+	}
+
+	.slideHome {
+		width: 100%;
+	}
+
+	.slideHome img {
+		height: 375px;
+		overflow: hidden;	
+	}
+
+	.slideDroite {
+		width: 100%;
+		float: none;
+	}
+
+	.slideCarrelage {
+		width: 50%;
+		padding-right: 5px; 
+		float: left;
+	}
+
+	.slideCarrelage img {
+		width: 100%;
+	}
+
+	.slideParquet {
+		width: 50%;
+		float: right;
+	}
+
+	.slideParquet img {
+		width: 100%;
+	}
+
+	.nosProduits {
+		margin: 0 auto;
+	}
+
+	.nosProduits div.vignettes {
+		width: 40%;
+		margin: 20px 30px;
+		float: left;
+	}	
+
+	.nosProduits img.produit {
+		height: 100%;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ============= HOME =========== */	
+
+	/* ======== NOS PRODUITS ======== */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.partie_produit {
+		width: 100%;
+	}
+	.partie_service {
+		width: 100%;
+	}
+	.separateur {
+		display: none;
+	}
+	.contBtPdt{
+		margin-left: 0;
+		margin-bottom: 100px;
+	}
+	ul.conBtServ {
+		margin-top: 130px;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 100px;
+	}
+	ul.conBtServ li a {
+		margin: 0 auto 40px auto;
+	}
+
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== NOS PRODUITS ======== */
+	
+	
+	/* ======== PAGE PRODUITS ======= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.conteneur_page_produit .bloc-titre h1 {
+		font-size: 25px;
+		white-space: normal;
+	}
+	.conteneur_page_produit .bloc-titre .carre {
+		width: 20px;
+		height: 20px;
+		margin-left: -20px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .prev {
+		top: 56%;
+	}
+	.conteneur_page_produit .conteneur-gallerie .next {
+		top: 56%;
+		right: 50%;
+	}	
+	.conteneur_page_produit .conteneur-gallerie .row {
+		margin-top: 0;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .prix {
+		margin-top: 0px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row a .bouton-devis {
+		width: 75%;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .vignette-all {
+		display: flex;
+		justify-content: space-between;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .vignette-all .column .demo {
+		width: 64px;
+		margin-left: 5px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .reference-produit {
+		width: 75%;
+		margin-top: 20px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .bouton-buy {
+		width: 75%;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .bouton-buy .panier {
+		width: 20px;
+		margin-right: 5px;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== PAGE PRODUITS ======= */	
+	
+	
+	/* =========== COMMANDE ========= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.conteneur-commande .bandeau-bienvenue {
+		height: 105px;
+	}
+	.conteneur-commande .bandeau-bienvenue h1 {
+		font-size: 30px;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 .text-commande {
+		width: 290px;
+		
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* =========== COMMANDE ========= */
+	
+	
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ============= Entre 959px et 768px ============== */
+
+/* ============== Entre 767px et 480px ============= */
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+
+
+@media all and (min-width: 480px) and (max-width: 768px){
+	
+	/* ============= HOME =========== */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	
+	.bandeau1 {
+		max-height: 30px; 
+		line-height: 30px; 
+		font-size: 0.6em;
+	}
+	
+	.bandeau1 .satisfait {
+		padding-left: 10px;
+	}
+	
+	.bandeau1 .paiement {
+		padding-right: 10px;
+	}	
+	
+	.bandeau2 {
+		min-height: 230px;
+		margin: 0 auto;
+	}	
+	
+	.bandeau2 .logo {
+		float: none;
+		width: 250px;
+		margin: 0 auto;
+	}
+	
+	.bandeau2 .service-content {
+		float: none;
+		width: 90%;
+		padding-top: 70px;
+		margin: 0 auto;
+	}
+	
+	.hamburger {
+		display: inline;
+		padding-left: 50px;
+		padding-right: 50px;
+		border: none;
+		height: 41px;
+		background: linear-gradient(white, lightgrey);
+	}
+
+	nav ul li div.search-container form button {
+		margin-right: 45px;
+		margin-top: 8px;
+	}	
+
+	nav ul li .search-container input[type=text] {
+		margin-top: 8px;
+	}	
+
+	nav ul li a:not(first-child) {
+		display: none;
+	}
+
+	.deroulant {
+		display: block;
+		width: 100%;
+		background-color: lightgrey;
+		position: relative;
+	}
+
+	.deroulant a {
+		display: block;
+		flex-direction: column;
+		font-weight: 700;
+		font-size: 18px;
+		text-align: center;
+		padding: 10px 0 10px 0;
+	}
+
+	.deroulant a:hover {
+		border-bottom: solid 2px #f52875;
+	}
+
+	.hamburger:active {
+	}
+	
+	.carousel {
+		width: 90%;
+	}
+
+	.slideHome {
+		width: 100%;
+		float: none;
+	}
+
+	.slideHome img {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.slideHome .legende {
+		display: none;
+	}
+
+	.slick-dots {
+		bottom: 10px;
+	    padding-right: 20px;
+	    text-align: center;
+	}
+
+	.slideDroite {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
+
+	.slideCarrelage {
+		width: 50%;
+		padding-right: 10px;
+		float: left;
+	}
+
+	.slideCarrelage img {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.slideParquet {
+		width: 50%;
+		float: left;
+	}
+
+	.slideParquet img {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.nosProduits {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.nosProduits div.vignettes {
+		width: 60%;
+		margin: 20px auto;
+		float: none;
+	}	
+
+	.nosProduits img.produit {
+		height: 100%;
+	}
+
+	.sectionInfos {
+		width: 100%;
+	}
+	
+	.sectionInfos div.infosEshop {
+		float: none;
+	}	
+	
+	.sectionInfos div.infosEshop.col1 {
+		width: 100%;
+		margin-right: 60px;
+	}
+
+	.sectionInfos div.infosEshop.col2 {
+		width: 100%;
+		margin-right: 30px;
+	}
+
+	.sectionInfos div.infosEshop.col3 {
+		width: 100%;
+	}
+
+	/* ---- POPUP ---- */
+
+	.pageModale {
+	   	width:400px;
+	   	height:400px;
+	}
+	
+	footer .col-foot {
+		width: 50%;
+		float: left;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ============= HOME =========== */
+	
+	
+	/* ======== NOS PRODUITS ======== */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.partie_produit {
+		width: 100%;
+	}
+	.partie_service {
+		width: 100%;
+	}
+	.separateur {
+		display: none;
+	}
+	.contBtPdt{
+
+		margin-left: 0;
+		margin-bottom: 100px;
+	}
+	ul.conBtServ {
+		margin-top: 130px;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 100px;
+	}
+	ul.conBtServ li a {
+		width: 80%;
+		margin: 0 auto 40px auto;
+		font-size: 22px;
+	}
+	#carrelage {
+		width: 80%;
+	}
+	#parquet {
+		width: 80%;
+	}
+	#exterieur {
+		width: 80%;
+	}
+	#mur {
+		width: 80%;
+	}
+	#accessoire {
+		width: 80%;
+	}
+	#sanitaire {
+		width: 80%;
+	}	
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== NOS PRODUITS ======== */
+	
+	
+	/* ======== PAGE PRODUITS ======= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.conteneur_page_produit .bloc-titre h1 {
+		font-size: 25px;
+		white-space: normal;
+		margin-left: -10px;
+	}
+	.conteneur_page_produit .conteneur-gallerie {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.conteneur_page_produit .conteneur-gallerie .mySlides {
+		width: 100%;
+	}
+	.conteneur_page_produit .bloc-titre .carre {
+		width: 20px;
+		height: 20px;
+		margin-left: -40px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .prev {
+		top: 32%;
+	}
+	.conteneur_page_produit .conteneur-gallerie .next {
+		top: 32%;
+		right: 2px;
+	}	
+	.conteneur_page_produit .conteneur-gallerie .row {
+		width: 100%;
+		margin-top: 0;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .prix {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row a .bouton-devis {
+		width: 75%;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .vignette-all {
+		display: flex;
+		justify-content: space-between;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .vignette-all .column {
+		display: inline; 
+	}
+	
+	.conteneur_page_produit .conteneur-gallerie .row .vignette-all .column .demo {
+		width: 80px;
+		margin-left: 0;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .reference-produit {
+		width: 75%;
+		margin-top: 20px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .bouton-buy {
+		width: 75%;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .bouton-buy .panier {
+		width: 30px;
+		margin-right: 10px;
+	}
+	.conteneur_page_produit .caract {
+		width: 100%;
+	}
+	
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== PAGE PRODUITS ======= */
+	
+	
+	/* =========== COMMANDE ========= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.conteneur-commande .bandeau-bienvenue {
+		height: 105px;
+	}
+	.conteneur-commande .bandeau-bienvenue h1 {
+		font-size: 30px;
+		margin-left: 30px;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 img {
+		float: none;
+		display: block; 
+		margin: 0 auto;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 .text-commande {
+		width: 290px;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 a .conteneur-impression {
+		float: none;
+		display: block; 
+		margin: 0 auto;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 .text-commande {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* =========== COMMANDE ========= */
+	
+	
+	/* ========= PROFESIONNEL ======= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.conteneur-professionnel main .bloc-titre h1 {
+		font-size: 25px;
+		white-space: normal;
+		margin-left: -5px;
+	}
+	.conteneur-professionnel main .bloc-titre .carre {
+		width: 25px;
+		height: 25px;
+		margin-left: -37px ;
+	}
+	.conteneur-professionnel main .bloc-titre {
+		margin-bottom: 20px;
+	}
+	.conteneur-professionnel main .visuel-professionnel {
+		display: block;
+		margin-top: 20px;
+	}
+	.conteneur-professionnel main .conteneur-all-pro .gauche-pro {
+		display: block;
+		width: 100%;
+		margin: 50px 0 50px 0;
+		padding: 0 10% 0 10%;
+		text-align: center;	
+	}
+	.conteneur-professionnel main .conteneur-all-pro .gauche-pro .titre-pro {
+		width: 100%;
+		padding: 0 10% 0 10%;
+		text-align: center;
+	}
+	.conteneur-professionnel main .conteneur-all-pro .droite-pro {
+		display: block;
+		width: 100%;
+		margin: 0 0 50px 0;
+		padding: 0 10% 0 10%;
+	}
+	.conteneur-professionnel main .pro-block-avantage {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.conteneur-professionnel main .pro-block-avantage hr {
+		width: 20px;
+	}	
+
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== PROFESSIONNEL ======= */
+	
+	/* ========= MON COMPTE ========= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	div.compte-inscription {
+		border: 2px solid blue;
+		width: 100%;
+	}	
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ========= MON COMPTE ========= */	
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ============= Entre 768px et 480px ============== */
+
+/* ================ Moins de 480px =============== */
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+@media all and (max-width: 479px){
+	
+	/* ============= HOME =========== */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	#conteneur {
+		min-width: 100%;
+	}
+	
+	.bandeau1 {
+		min-height: 90px;
+		font-size: 0.6em;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	
+	.bandeau1 .satisfait {
+		padding-left: 0;
+		line-height: -1px;
+		margin: 0 auto;
+	}
+	
+	.bandeau1 .tel {
+		padding-left: 0;
+		margin: 0 auto;	
+		line-height: -1px;
+	}
+	
+	.bandeau1 .paiement {
+		padding-right: 10px;
+		margin: 0 auto;	
+		line-height: -30px; 
+	}	
+	
+	.bandeau2 {		
+		min-height: 230px;
+		margin: 0 auto;
+	}	
+	
+	.bandeau2 .logo {	
+		float: none;
+		width: 250px;
+		margin: 0 auto;
+	}
+	
+	.bandeau2 .service-content {  
+		display: none;
+	}
+
+	.bandeau2 .service-content-v2 {  
+		display: block;
+		width: 100%; 
+		padding-top: 50px; 
+	}
+
+	.bandeau2 .service-content-v2 img {
+		float : left;
+		width: 25%;
+		padding: 15px;
+	}
+	
+	.hamburger {
+		display: block;
+		text-align: center;
+		border: none;
+		height: 41px;
+		width: 100%;
+		background: linear-gradient(white, lightgrey);
+	}
+	
+	nav ul li div.search-container form button {
+		margin-top: 5px;
+	}	
+
+	nav ul li .search-container input[type=text] {
+		margin: 5px auto;
+	}
+
+	.search-container {
+		display: block;
+		margin: 0 auto;
+	}
+
+	nav ul li a:not(first-child) {
+		display: none;
+	}
+
+	.deroulant {
+		display: block;
+		width: 100%;
+		background-color: lightgrey;
+		position: relative;
+	}
+
+	.deroulant a {
+		display: block;
+		flex-direction: column;
+		font-weight: 700;
+		font-size: 18px;
+		text-align: center;
+		padding: 10px 0 10px 0;
+	}
+
+	.deroulant a:hover {
+		border-bottom: solid 2px #f52875;
+	}
+
+	.hamburger:active {
+	}
+	
+	.carousel {
+		width: 90%;
+	}
+
+	.slideHome {
+		display: none;
+	}
+
+	.slideDroite {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
+
+	.slideCarrelage{
+		width: 100%;
+		float: none;
+	}
+
+	.slideParquet {
+		width: 100%;
+		float: none;
+		margin-bottom: 50px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.nosProduits {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.nosProduits div.vignettes {
+		width: 60%;
+		margin: 20px auto;
+		float: none;
+	}	
+
+	.nosProduits img.produit {
+		height: 100%;
+	}
+
+	.nosProduits .voir, .ajout, .devis {
+		font-size: 0.55em;
+	}
+
+	.sectionInfos {
+		width: 100%;
+	}
+	
+	.sectionInfos div.infosEshop {
+		float: none;
+	}	
+	
+	.sectionInfos div.infosEshop.col1 {
+		width: 100%;
+		margin-right: 60px;
+	}
+
+	.sectionInfos div.infosEshop.col2 {
+		width: 100%;
+		margin-right: 30px;
+	}
+
+	.sectionInfos div.infosEshop.col3 {
+		width: 100%;
+	}
+	
+	footer .conteneurFooter { 
+		width: 50%;
+		text-align: center;
+	}
+
+	footer .col-foot {
+		width: 100%;
+		float: left;
+	}
+
+	footer img.map-google { 
+		margin-left: 35px;
+	}
+
+	footer .qualite { 
+    left: 0px;
+	}	
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ============= HOME =========== */
+	
+	
+	/* ======== NOS PRODUITS ======== */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.partie_produit {
+		width: 100%;
+	}
+	.partie_service {
+		width: 100%;
+	}
+	.separateur {
+		display: none;
+	}
+	.contBtPdt{
+
+		margin-left: 0;
+		margin-bottom: 100px;
+	}
+	ul.conBtServ {
+		margin-top: 130px;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 100px;
+	}
+	ul.conBtServ li a {
+		width: 80%;
+		margin: 0 auto 40px auto;
+		font-size: 23px;
+		white-space: nowrap;
+	}
+	ul.conBtServ li a img {
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 75px;
+	}	
+	#carrelage {
+		width: 80%;
+	}
+	#parquet {
+		width: 80%;
+	}
+	#exterieur {
+		width: 80%;
+	}
+	#mur {
+		width: 80%;
+	}
+	#accessoire {
+		width: 80%;
+	}
+	#sanitaire {
+		width: 80%;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== NOS PRODUITS ======== */	
+	
+	
+	/* ======== PAGE PRODUITS ======= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.conteneur_page_produit .bloc-titre h1 {
+		font-size: 25px;
+		white-space: normal;
+		margin-left: -10px;
+	}
+	.conteneur_page_produit .conteneur-gallerie {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.conteneur_page_produit .conteneur-gallerie .mySlides {
+		width: 100%;
+	}
+	.conteneur_page_produit .bloc-titre .carre {
+		width: 20px;
+		height: 20px;
+		margin-left: -40px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .prev {
+		top: 32%;
+	}
+	.conteneur_page_produit .conteneur-gallerie .next {
+		top: 32%;
+		right: 2px;
+	}	
+	.conteneur_page_produit .conteneur-gallerie .row {
+		width: 100%;
+		margin-top: 0;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .prix {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row a .bouton-devis {
+		width: 75%;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .vignette-all {
+		display: flex;
+		justify-content: space-between;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .vignette-all .column {
+		display: inline; 
+	}
+	
+	.conteneur_page_produit .conteneur-gallerie .row .vignette-all .column .demo {
+		width: 60px;
+		margin-left: 0;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .reference-produit {
+		width: 75%;
+		margin-top: 20px;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .bouton-buy {
+		width: 75%;
+	}
+	.conteneur_page_produit .conteneur-gallerie .row .bouton-buy .panier {
+		width: 30px;
+		margin-right: 10px;
+	}
+	.conteneur_page_produit .caract {
+		width: 100%;
+	}
+	.conteneur_page_produit .caract .table-caract tr td {
+		width: 50%;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ======== PAGE PRODUITS ======= */
+	
+	
+	/* =========== COMMANDE ========= */
+	/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+	.conteneur-commande .bandeau-bienvenue {
+		height: 80px;
+	}
+	.conteneur-commande .bandeau-bienvenue h1 {
+		font-size: 20px;
+		margin-left: 30px;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 img {
+		float: none;
+		display: block; 
+		margin: 0 auto;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 .text-commande {
+		width: 90%;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 a .conteneur-impression {
+		float: none;
+		display: block; 
+		margin: 0 auto;
+	}
+	.conteneur-commande .commandeLivrer .commandeEnCours-1 .text-commande {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* =========== COMMANDE ========= */
+
+
+	/* ---- Popup ---- */
+
+	.pageModale {
+	   	width:350px;
+	   	height:400px;
+	}
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ============== Moins de 480px =============== */
